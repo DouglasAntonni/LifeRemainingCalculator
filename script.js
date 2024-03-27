@@ -28,7 +28,7 @@ function calculateRemainingYears() {
     var remainingYears = 78 - age;
 
     if (age > 30) {
-        remainingYears -= (age - 30) * 0.5; // Diminuir 0.2 ano para cada ano acima de 30
+        remainingYears -= (age - 30) * 0.6; // Diminuir 0.2 ano para cada ano acima de 30
     }
     remainingYears -= (sleepHours / 24) * 1.2; // Considerando que menos horas de sono diminuem mais o tempo de vida
     remainingYears -= (10 - foodQuality) * 1.2; // Quanto menor a qualidade da alimentação, mais diminui o tempo de vida
