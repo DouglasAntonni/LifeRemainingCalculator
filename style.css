@@ -69,8 +69,11 @@ button:hover {
 }
 
 .lightbox-content {
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
+    text-align: center;
+    text-shadow: 0 0 6px rgb(0, 0, 0); /* Adiciona uma sombra branca nas letras dos inputs */
+    
 }
 
